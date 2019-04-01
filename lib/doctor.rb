@@ -9,7 +9,7 @@ class Doctor
   end
 
 def new
-  @@all
+    @appointments
 end
 
 
