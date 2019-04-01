@@ -16,7 +16,7 @@ end
 
   def new_appointment(appointment)
     @appointments << appointment
-    appointment.doctor = self
+      appointment.doctor = self
   end
 
   def appointments
