@@ -8,7 +8,7 @@ class Doctor
     @@all << []
   end
 
-def new.all
+def new
   @@all
 end
 
