@@ -12,10 +12,15 @@ def self.all
 end
 
 def new_song(name, genre)
- song = Song.new(name, genre)
-    self.songs.last
+  @songs << song
+     song.artist = self
+   end
 
-  end
+   def songs
+     @songs
+   end
 
-
+   def genres
+     @songs.collect do |song|
+       song.genre
 end
