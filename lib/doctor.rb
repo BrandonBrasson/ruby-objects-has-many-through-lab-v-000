@@ -7,6 +7,11 @@ class Doctor
     @appointments = []
     @@all << []
   end
+def new
+  @@all
+end
+
+
 
   def add_appointment(appointment)
     @appointments << appointment
