@@ -8,13 +8,13 @@ class Doctor
     @@all << []
   end
 
-def new
+def new(name)
     @appointments
 end
 
 
 
-  def new_appointment(appointment)
+  def new_appointment(name)
     @appointments << appointment
       appointment.doctor = self
   end
