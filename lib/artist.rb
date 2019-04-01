@@ -25,3 +25,4 @@ def new_song(name, genre)
        song.genre
 end
 end
+end
