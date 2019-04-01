@@ -20,4 +20,3 @@ lass Artist
       song.genre
     end
   end
-
