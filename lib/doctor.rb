@@ -7,6 +7,7 @@ class Doctor
     @appointments = []
     @@all << []
   end
+
 def new
   @@all
 end
