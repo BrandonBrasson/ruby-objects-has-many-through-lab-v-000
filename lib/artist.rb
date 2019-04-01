@@ -12,7 +12,7 @@ def self.all
  ALL
 end
 
-d
+
   def add_song(song)
       @songs << song
       song.artist = self
@@ -22,9 +22,5 @@ d
      @songs
    end
 
-   def genres
-     @songs.collect do |song|
-       song.genre
-end
-end
+
 end
